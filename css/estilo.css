@@ -1,0 +1,245 @@
+/* Fontes do Google*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+body {
+    background-color: grey;
+   
+}
+
+.cabecalho{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    font-size: 50px;
+    text-align: left;
+}
+
+
+  
+  .search-container{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  input#search-bar{
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    &:focus{
+      border: 1px solid #000000;
+      transition: 0.35s ease;
+      color: #000000;
+      &::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &:-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+       }    
+     }
+   }
+  
+  .search-icon{
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -15px;
+  }
+  
+  
+  
+  
+
+
+.logo{
+    width: 100px;
+    margin-top: 30px;
+    object-fit: contain;
+    float:left;
+    margin-left: 400px;
+    
+}
+
+.logoPosicao{
+    flex: 1 1 17rem;
+    position: relative;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -120px;
+    border: 10px;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+    height: 100%;
+    width: 100%;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float:right;
+    background-color: rgb(24, 139, 233);
+    margin-top: -64px;
+}
+
+.mensagemPromocao{
+    margin-left: 50px;
+    color: red;
+}
+
+.Principal{
+    height: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+}
+
+.Sessao * {
+    height: 100%;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top:2rem;
+}
+
+.conteudo .caixa{
+    flex: 1 1 17rem;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5rem;
+}
+
+.conteudo .caixa img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 1rem;
+}
+
+.conteudo .caixa h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.conteudo .caixa span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: red;
+}
+
+.conteudo .caixa .bx{
+    color: blue;
+    margin: 3rem 0;
+}
+
+.conteudo .caixa .btn{
+    width: 120px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    
+    
+}
+
+.conteudo .caixa .detalhes{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 3rem;
+    right: 8.2rem;
+    font-size: 1rem;
+    color: cadetblue;
+    width: 90px;
+    height: 100px;
+}
+
+.conteudo .caixa .detalhes:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.Rodape{
+    width: 100%;
+    height: 100%;
+    background-color: darkgrey;
+    padding: 50px;
+}
+
+.InfoRodape{
+    width: 80%;
+    height: 100%;
+   color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+  
+  
